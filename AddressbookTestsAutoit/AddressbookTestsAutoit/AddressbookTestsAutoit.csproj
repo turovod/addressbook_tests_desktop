@@ -53,16 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="appmanager\ApplicationManager.cs" />
+    <Compile Include="appmanager\GroupHelper.cs" />
+    <Compile Include="appmanager\HalperBase.cs" />
+    <Compile Include="model\GroupData.cs" />
     <Compile Include="tests\TestBase.cs" />
-    <Compile Include="tests\UnitTest1.cs" />
+    <Compile Include="tests\GroupCreationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="model\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <COMReference Include="AutoItX3Lib">
       <Guid>{F8937E53-D444-4E71-9275-35B64210CC3B}</Guid>

@@ -9,7 +9,7 @@ namespace AddressbookTestsAutoit
 {
     public class TestBase
     {
-        ApplicationManager app;
+        public ApplicationManager app;
 
         [TestFixtureSetUp]
 

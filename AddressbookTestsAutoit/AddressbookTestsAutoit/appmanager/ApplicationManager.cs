@@ -8,14 +8,21 @@ namespace AddressbookTestsAutoit
 {
     public class ApplicationManager
     {
+        private GroupHelper groupHelper;
+
         public ApplicationManager()
         {
-
+            groupHelper = new GroupHelper(this);
         }
 
         public void Stop()
         {
 
+        }
+
+        public GroupHelper Groups
+        {
+           get { return groupHelper; }
         }
     }
 }
