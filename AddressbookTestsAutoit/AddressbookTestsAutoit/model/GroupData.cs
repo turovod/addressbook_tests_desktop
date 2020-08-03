@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AddressbookTestsAutoit
 {
-    class GroupData
+    public class GroupData
     {
         public string Name { get; set; }
     }
